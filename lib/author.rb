@@ -6,8 +6,8 @@ class Author
     @name = name
   end
 
-  def add_song(song)
-    song.artist = self
+  def add_post(post)
+    post.author = self
   end
 
   def add_song_by_name(song_name)
