@@ -10,9 +10,9 @@ class Author
     post.author = self
   end
 
-  def add_song_by_name(song_name)
-    song = Song.new(song_name)
-    add_song(song)
+  def add_post_by_title(post_title)
+    post = Post.new(post_title)
+    add_post(post)
   end
 
   def posts
